@@ -33,6 +33,11 @@ img.kelseypic {
 
 }
 
+ul.profile {
+
+	text-align: center;
+}
+
 /* Grades */
 
 div.assignments {
@@ -41,10 +46,15 @@ div.assignments {
 }
 
 
-/* Tabs */
+/* Apps */
 
-div.tabmargin {
+div.apps {
 
-	margin-top:10px;
+	margin-top:75px;
 
+}
+
+table {
+
+	height: 171px;
 }

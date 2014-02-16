@@ -26,11 +26,13 @@
         </ul>
         <section class="top-bar-section">
           <ul class="right">
-            <li><a href="#" data-dropdown="drop2" class="kname"><img src="img/kelsey.jpg" class="kelseypic">Kelsey Berg</a>
+            <li><a href="#" class="kname" data-dropdown="drop"><img src="img/kelsey.jpg" class="kelseypic">Kelsey Berg</a>
             </li>
-                <div id="drop2" data-dropdown-content class="f-dropdown content">
-                <p>Some text that people will think is awesome! Some text that people will think is awesome! Some text that people will think is awesome!</p>
-              </div>
+              <ul id="drop" class="tiny content f-dropdown" data-dropdown-content>
+              <li><a href="#">1 New Message</a></li>
+              <li><a href="#">2 Notifications</a></li>
+              <li><a href="#">Edit Profile</a></li>
+              </ul>
             <li><a href="#">Settings</a></li>
           </ul>
         </section>
@@ -41,7 +43,7 @@
   <!-- Primary Content -->
 
   <div class="row">
-    <div class="large-12 columns assignments">
+    <div class="large-6 columns assignments">
       <h3>Pending Assignments</h3>
       <table>
         <thead>
@@ -76,13 +78,12 @@
       </table>
       <a href="#" class="button">See All Assignments</a>
     </div>
-  </div>
   <!-- End of primary content -->
 
 
   <!-- Secondary Content -->
-<div class="row">
-  <div class="large-12 columns">
+  <div class="large-6 columns apps">
+    <h3>My Apps</h3>
       <dl class="accordion" data-accordion>
         <dd>
           <a href="#panel2">Canvas</a>
@@ -93,7 +94,33 @@
         <dd>
           <a href="#panel3">E-Mail Inbox</a>
           <div id="panel3" class="content">
-            Panel 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  <table>
+              <thead>
+                <tr>
+                  <th>From</th>
+                  <th>Subject</th>
+                  <th>Date</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>John Smith</td>
+                  <td><a href="#">Here's those files!</a></td>
+                  <td>2/14/2014</td>
+                </tr>
+                <tr>
+                  <td>Peter Gabriel</td>
+                  <td><a href="#">Thank you!</a></td>
+                  <td>2/15/2014</td>
+                </tr>
+                <tr>
+                  <td>Buzz Lightyear</td>
+                  <td><a href="#">Join Star Command</a></td>
+                  <td>2/15/2014</td>
+                </tr>
+              </tbody>
+            </table>
+            <a href="#" class="button">View Inbox</a>
           </div>
         </dd>
         <dd>
@@ -107,6 +134,8 @@
 </div>
 
     <!-- end of 2ndary content -->
+
+
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
