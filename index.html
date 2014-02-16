@@ -10,7 +10,9 @@
   </head>
   <body>
   
+
   <!-- Top Nav -->
+
   <div class="contain-to-grid fixed">    
       <nav class="top-bar">
         <ul class="title-area">
@@ -19,19 +21,45 @@
               <a href="#">My EWU Portal</a>
             </h1>
           </li>
-          <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
+          <li class="toggle-topbar has-dropdown menu-icon"><a href="#"><span>menu</span></a></li>
         </ul>
         <section class="top-bar-section">
           <ul class="right">
-            <li><a href="#">Kelsey Berg</a></li>
+            <li><a href="#" class="kname has-dropdown">Kelsey Berg</a>
+            </li>
             <li><a href="#">Settings</a></li>
           </ul>
         </section>
       </nav>
     </div>
   <!-- End of Nav -->
+    
+  <!-- Orbit -->
 
+  <div class="row">
+      <div class="large-12 columns" data-orbit> 
+        <div>
+          <h1>Self-destructing message app</h1>
+          <p class="lead">Learn how to build this fun little app by signing up for a Treehouse account today.</p>
+          <p class="button-group radius">
+            <a class="medium button success" href="#">Download the app</a>
+            <a class="medium button hide-for-small">Text me the link</a>
+          </p> 
+        </div>
+        <div>
+          <h1>Learn how to build it for iOS</h1>
+          <p class="lead">We'll teach you how to build it from scratch!</p>
+          <p><a class="medium button radius" href="#">Get started today!</a>   
+        </div>
+        <div>
+          <h1>Learn how to build it for Android</h1>
+          <p class="lead">We'll teach you how to build it from scratch!</p>
+          <p><a class="medium button radius" href="#">Get started today!</a></p> 
+        </div>
+      </div>
+    </div>
 
+    <!-- end of orbit -->
     
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
