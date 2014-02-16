@@ -21,10 +21,17 @@ img.kelseypic {
 
 }
 
+/* Grades */
+
+div.assignments {
+
+	margin-top: 75px;
+}
+
 /* Tabs */
 
 div.tabmargin {
 
-	margin-top: 100px;
+	margin-top:px;
 
 }
