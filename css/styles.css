@@ -1,7 +1,19 @@
+/* Global */
+
+ body {
+ 	font-family: 'Open Sans', sans-serif;
+ 	font-weight: regular;
+ }
+
+ h3	{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+
 /* Top Nav */
 
 .top-bar .name h1 a, .top-bar-section ul li > a.kname {
-
+	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 
 }
@@ -28,7 +40,6 @@ div.assignments {
 	margin-top: 75px;
 }
 
-h2	{}
 
 /* Tabs */
 
