@@ -110,8 +110,8 @@ table {
 
 	background:#71c6a2;
 	color: white;
-	border-bottom: 5px;
-	border-color: #68b493;
+	vertical-align: center;
+	font-weight: bold;
 }
 
 .accordion dd > a:hover {
@@ -138,3 +138,12 @@ a.button.expand.eaglenet:hover {
 	background: #d96953;
 
 	;
+}
+
+i.fi-mail, i.fi-list-thumbnails, i.fi-book, i.fi-calendar, i.fi-list, i.fi-torso-business, i.fi-dollar, i.fi-results{
+
+	margin-right: 20px;
+	font-size: 1.5em;
+	vertical-align: center;
+	text-align: left;
+}
