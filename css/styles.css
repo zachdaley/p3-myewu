@@ -3,6 +3,7 @@
  body {
  	font-family: 'Open Sans', sans-serif;
  	font-weight: regular;
+ 	background: #f6eed8;
  }
 
  h3	{
@@ -12,10 +13,36 @@
 
 /* Top Nav */
 
+.top-bar, .contain-to-grid {
+
+	background: #71c6a2;
+}
+
 .top-bar .name h1 a, .top-bar-section ul li > a.kname {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 
+}
+
+.top-bar-section ul li {
+
+	background: #71c6a2;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+
+	background: #71c6a2;
+}
+
+.f-dropdown.content {
+
+background: #71c6a2;
+
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+
+	background: #68b493;
 }
 
 img.ewulogo {
@@ -45,6 +72,12 @@ div.assignments {
 	margin-top: 75px;
 }
 
+table thead tr th {
+	color: white;
+	background:#f0745c;
+
+}
+
 
 /* Apps */
 
@@ -58,3 +91,15 @@ table {
 
 	height: 171px;
 }
+
+.accordion dd > a {
+
+	background:#71c6a2;
+}
+
+.accordion dd > a:hover {
+
+background:#68b493;
+
+}
+
