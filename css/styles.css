@@ -9,6 +9,20 @@
  h3	{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
+	color: #3f3336;
+}
+
+a.button {
+
+	font-weight: bold;
+	background: #3f3336;
+
+}
+
+a.button:hover {
+
+	background: #544549;
+
 }
 
 /* Top Nav */
@@ -79,7 +93,7 @@ table thead tr th {
 }
 
 
-/* Apps */
+/* Apps Accordion */
 
 div.apps {
 
@@ -95,11 +109,32 @@ table {
 .accordion dd > a {
 
 	background:#71c6a2;
+	color: white;
+	border-bottom: 5px;
+	border-color: #68b493;
 }
 
 .accordion dd > a:hover {
 
 background:#68b493;
+color: white;
 
 }
 
+.accordion dd.active a {
+
+	background: #3f3336;
+	color: white;
+
+}
+
+a.button.expand.eaglenet {
+
+	background: #f0745c;
+}
+
+a.button.expand.eaglenet:hover {
+
+	background: #d96953;
+
+	;
